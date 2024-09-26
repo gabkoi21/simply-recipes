@@ -5,7 +5,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* border: none; */
 }
 
 html {
@@ -109,63 +108,55 @@ html {
   font-weight: lighter;
 }
 
-/* This Section is for recipes list  */
+/* This is for the recepis list  */
 .recipes-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  /* border: 1px solid orange; */
+  margin: 25px 0;
+  /* border: 1px solid red; */
 }
-.recipes-items {
+
+.recipes-list-container {
   display: flex;
-  width: 99%;
-}
-.recipes-list {
-  display: flex;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-left: 60px;
-  margin-top: 10px;
-}
-
-.recipes-images {
-  object-fit: cover;
-  height: 159px;
-  width: 250px;
-  margin: 0px 10px 20px 55px;
-  border-radius: 5px 5px 5px 5px;
-}
-
-.recispeslinks {
-  margin: 20px 0px 0px 50px;
-}
-.recipes-name {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.links {
-  text-decoration: none;
-  color: #868b96;
-  font-size: 1.2rem;
+  flex: 2 1 50px; 
+  flex-basis: 1 0 10px ; 
+  /* border: 1px solid rgb(138, 137, 137); */
 }
 
 .recipes-links {
-  /* padding: 0px 0px 100px 0px; */
-  padding-left: 55px;
-  margin-top: 10px;
-}
-.recipes-group {
-  margin: -10px 0 10px 50px;
+  flex: 0.4; 
+  margin: 0 0 0 70px;
+  /* border: 1px solid green; */
+  padding: 10px;
 }
 
-.recpices-name {
-  font-size: 1.3rem;
-  color: #000000;
+.photo-recipes-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 5px 5px;
+  height: 74%;
 }
 
-.nanme-link {
+.photo-recipes-item {
+  width: 30%;
+}
+
+.recipes-name {
   text-decoration: none;
-  color: #868b96;
+  font-size: 1rem;
+  color: rgb(102, 95, 95);
+  text-transform: capitalize;
+}
+.recipes-Name {
+  font-weight: lighter;
+  color: rgb(24, 24, 24);
+}
+.full-name {
+  font-weight: lighter;
+  color: rgb(24, 24, 24);
+  font-size: 1.3rem;
 }
 
 /* This is for the footer section */
@@ -175,6 +166,7 @@ html {
   margin-top: 10px;
   background-color: black;
   justify-content: center;
+  /* border: 1px solid yellow; */
 }
 
 .footer-item {
