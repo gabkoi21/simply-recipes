@@ -1,0 +1,19 @@
+/* Reset rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.full-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
